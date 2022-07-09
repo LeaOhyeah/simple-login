@@ -8,7 +8,7 @@ class M_login extends CI_Model
           return $this->db->get_where($table, $where);
      }
 
-     // function untuk mengambil seluruh data user
+     // function untuk mengambil seluruh data user yang sedang login
      function tampil_silogin()
      {
           $nama_user = $this->session->userdata("nama");
