@@ -30,11 +30,11 @@
 
 							<p><?php echo $this->session->flashdata('msg'); ?></p>
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Email" name="username">
+								<input type="text" class="form-control" placeholder="Email" name="txt_email">
 							</div>
 
 							<div class="form-group">
-								<input id="password-field" type="password" class="form-control" placeholder="Password" name="password">
+								<input id="password-field" type="password" class="form-control" placeholder="Password" name="txt_password">
 								<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 							</div>
 							<div class="form-group">

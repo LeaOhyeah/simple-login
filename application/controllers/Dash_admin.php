@@ -7,7 +7,7 @@ class Dash_admin extends CI_Controller {
 		parent::__construct();
 		$this->load->model('m_login');
 
-		if($this->session->userdata('status') != "sudah_login_bro"){
+		if($this->session->userdata('arys_status') != "sudah_login_bro"){
 			redirect(base_url("login"));
 		}
 	}
